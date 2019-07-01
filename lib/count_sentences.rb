@@ -31,7 +31,7 @@ class String
    self.split(".")
    self.split("!")
   self.split("?")
-  self.length 
+  self.count 
   # final = a+b+c
   # final
   #self.split("/\[.,?,!]/").length
