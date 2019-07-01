@@ -30,9 +30,5 @@ class String
    #binding.pry
    self.split(/[.!?]/).reject {|element| element.empty?}.size
   
-  # final = a+b+c
-  # final
-  #self.split("/\[.,?,!]/").length
-  
   end
 end
