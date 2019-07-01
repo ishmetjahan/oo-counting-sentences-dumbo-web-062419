@@ -28,10 +28,10 @@ class String
 
   def count_sentences
    #binding.pry
-   self.split(".")
-   self.split("!")
-  self.split("?")
-  self.count 
+   self.split(".").count
+   self.split("!").count
+  self.split("?").count
+  
   # final = a+b+c
   # final
   #self.split("/\[.,?,!]/").length
